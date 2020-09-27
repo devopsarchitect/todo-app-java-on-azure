@@ -1,0 +1,17 @@
+-------------------- Auto-Git Log --------------------
+		Sat Sep 26 2020 23:07:24 GMT-0400 (Eastern Daylight Time)
+------------------------------------------------------
+
+Modified files:
+* Create-AZure-AKS-Steps-Azure-CLI.sh
+
+
+Created files:
+* .autogit/logs/log-26-8-2020-21-36-24.txt
+* Quickstart-Create-anAzure-CognitiveSearchindexinPowerShellusingRESTAPIs.ps1
+
+
+Deleted files:
+
+
+Renamed files:
