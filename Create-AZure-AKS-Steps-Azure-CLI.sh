@@ -30,3 +30,11 @@
 az role assignment create --assignee $CLIENT_ID --role acrpull --scope $ACR_ID
 # For more information see document on how to Authenticate with Azure Container Registry from Azure Kubernetes Service
 
+
+# Create Azure SQL server and Database: Create an Azure SQL server.
+
+ az sql server create -l <region> -g akshandsonlab -n <unique-sqlserver-name> -u sqladmin -p P2ssw0rd1234
+# Create a database
+
+ az sql db create -g akshandsonlab -s <unique-sqlserver-name> -n mhcdb --service-objective S0
+#  Important: Enter a unique SQL server name. Since the Azure SQL Server name does not support UPPER / Camel casing naming conventions, use lowercase for the SQL Server Name field value.
